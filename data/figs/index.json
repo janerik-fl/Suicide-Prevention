@@ -1,0 +1,18 @@
+{
+  "figures": {
+    "attempts_by_sex": "data/figs\\attempts_by_sex.png",
+    "method_overall": "data/figs\\method_overall.png",
+    "method_by_sex": "data/figs\\method_by_sex.png",
+    "age_hist": "data/figs\\age_hist.png",
+    "attempts_by_month": "data/figs\\attempts_by_month.png",
+    "attempts_by_weekday": "data/figs\\attempts_by_weekday.png",
+    "repetition_overall": "data/figs\\repetition_overall.png",
+    "repetition_by_sex": "data/figs\\repetition_by_sex.png",
+    "roc_curve": null,
+    "pr_curve": null,
+    "calibration_curve": null
+  },
+  "metrics_summary": {
+    "warning": "Could not infer label/probability columns in preds_logreg.csv"
+  }
+}
