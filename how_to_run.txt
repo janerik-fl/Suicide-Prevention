@@ -1,0 +1,19 @@
+1.create venv (once)
+py -m venv .venv
+
+2.activate
+.\.venv\Scripts\Activate.ps1
+
+3.dependencies installation
+python -m pip install -r requirements.txt
+
+Then: 
+
+4: 
+python generator.py
+
+5: 
+python train_models.py --input ./data/synthetic_uruguay_attempts.csv --outdir ./models
+
+6:
+python predict.py ./data/synthetic_uruguay_attempts.csv --model ./models/logreg_pipeline.joblib --spec ./models/model_spec.json --output ./data/preds_logreg.csv --id-col ID_Number

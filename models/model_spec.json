@@ -1,0 +1,21 @@
+{
+  "feat_cols_cat": [
+    "Sex",
+    "Method_Used",
+    "Health_Care_Institution",
+    "Country_of_Origin",
+    "ED_Where_Recorded",
+    "dow"
+  ],
+  "feat_cols_num": [
+    "Age_at_Attempt",
+    "month",
+    "Previous_Suicide_Attempts",
+    "Undergoing_Mental_Health_Treatment"
+  ],
+  "label": "y_repeat_same_year",
+  "train_years": [
+    2023
+  ],
+  "test_year": 2024
+}
